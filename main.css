@@ -20,6 +20,17 @@
     height: 30rem;
     transform: translate(-50%, -50%);
     display: flex;
+    animation: show-login 1s forwards;
+    opacity: 0;
+}
+@keyframes show-login{
+    0%{
+        transform: translate(-90rem, -50%);
+    }
+    100%{
+        transform: translate(1);
+        opacity: 1;
+    }
 }
 .login .left{
     border-radius: 10% 0 0;
