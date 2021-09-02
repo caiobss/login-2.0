@@ -4,6 +4,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 .container{
     background-color: rgb(245, 245, 245);
     height: 100vh;
